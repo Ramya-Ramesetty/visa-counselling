@@ -1,0 +1,212 @@
+
+*{
+    padding:0px;
+    margin:0px;
+}
+/* .contactdetails{
+    padding:0px 100px;
+    width:100%;
+    margin:0px;
+    border:1px solid white;
+    display:flex;
+    justify-content:start;
+    background-color: linear-gradient(to right, #ee8425 0%, #f9488b 100%), linear-gradient(to right, #ee8425 0%, #f9488b 100%);
+
+}
+.contactdetails ul{
+    display:flex;
+}
+.contactdetails ul li {
+    padding:10px 25px;
+    list-style-type: none;
+    font-size:14px;
+    font-family: sans-serif;
+    width:100%;
+    background-color: black;
+    color: white;
+
+} */
+.navbar{
+    padding:20px 75px;
+    margin:0px;
+    border:1px solid black;
+    justify-content: space-between;
+    color:white;
+    width:90%;
+    background-color: black;
+    display: flex;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    
+}
+.navbar ul {
+    display: flex;
+}
+.navbar ul li{
+    padding: 10px 25px;
+    list-style: none;
+    font-size: 17px;
+    font-weight: bold;
+    font-family: sans-serif;
+
+}
+.title{
+    font-family: sans-serif;
+    display: flex;
+}
+.web{
+    color:#d94c27;
+    font-family: sans-serif;
+}
+.image{
+    background-image: url(images/conselling-1.png);
+    width:100%;
+    height:800px;
+    background-color:#9fd7f9; 
+}
+.imageColor{
+    background-color:black;
+    height:950px;
+    width:100%;
+    
+}
+.image-h1{
+    color:white;
+    font-family: sans-serif;
+    padding:20px 60px;
+    font-weight: 100;
+}
+.image-iframe{
+    padding:20px 100px;
+    display: flex;
+
+}
+.d-flex{
+    display: flex;
+}
+.boxes-1{
+  border:1px solid  #9fd7f9;
+ box-shadow: white;
+  margin: 0px 40px;
+}
+
+.boxes-2{
+    border:1px solid  #9fd7f9;
+    /* margin: 0px 100px; */
+}
+.boxes-3{
+    
+    border:1px solid  #9fd7f9; 
+    margin:40px 400px;
+}
+.image-h3{
+    color:white;
+    font-family: sans-serif;
+    padding:10px 200px;
+    font-weight: bold;
+}
+.course-price{
+    display: flex;
+    
+}
+.course-price-h2{
+    font-family: sans-serif;
+    padding:20px 100px;
+    font-weight: bold;
+    background-color: #292d2f;
+    color:white;
+    height:30px;
+    display: flex;
+    width:100%;
+}
+.form-h2{
+    text-align: center;
+    font-family: sans-serif;
+    padding-top:50px;
+}
+.form-p{
+    text-align: center;
+    font-family: sans-serif;
+    padding:20px 0px;
+}
+.form{
+    padding:10px;
+    margin-left:300px;
+
+  }
+  .form-button{
+    border:2px solid blue;
+    padding:10px;
+    margin:10px;
+    background-color: blue;
+    color: white;
+    border-radius: 4px;
+    margin-left:310px;
+    margin-bottom: 50px;
+  }
+  .form-padding{
+    padding:15px 25px;
+    border:2px solid #9fd7f9; 
+  }
+
+ footer{
+    background-color: black;
+ }
+ .footercontainer{
+    width:80%;
+    padding:70px 30px 20px;
+ }
+ .socialicons{
+  justify-content: center;
+    display: flex;
+ }
+ .socialicons a{
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: white;
+    margin:10px;
+    padding:10px;
+ }
+ .socialicons a i{
+    font-size:2em;
+    color:black;
+    opacity: 0.9;
+ }
+ .socialicons a:hover{
+    background-color: #111;
+    transition:0.5s;
+ }
+ .socialicons a:hover i{
+    background-color: white;
+    transition:0.5s;
+ }
+ .footerNav{
+    margin:30px 0px;
+ }
+ .footerNav ul{
+    display: flex;
+    justify-content: center;
+ }
+ .footerNav ul li a{
+  color:white;
+    margin:20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition:0.5s;
+ }
+ .footerNav ul li a:hover{
+    opacity: 1;
+ }
+ .footer-bottom{
+    background-color: black;
+    padding:20px;
+    /* text-align: center; */
+    margin:0px 500px;
+
+ }
+ .footer-bottom p{
+    color:white;
+ }
